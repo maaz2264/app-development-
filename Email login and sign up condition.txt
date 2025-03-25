@@ -1,0 +1,22 @@
+void main() {
+
+  print("Email login and sign up condition \n");
+  
+  String emailsinup="maazsaleem2265@gmail.com";
+  String passsinup="1234";
+  
+  String emaillogin="maazsaleem2265@gmail.com";
+  String passlogin ="1234";
+//   if else condition is use when we have two task to do like if first condition fails then second condition will be executed.
+  
+  if(emailsinup==emaillogin && passsinup==passlogin){
+    print("account sucess");
+  }
+  else{
+
+  print("invalid email and pw");
+  }
+    
+}
+
+
