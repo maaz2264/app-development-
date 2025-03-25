@@ -1,0 +1,25 @@
+void main(){
+  // switch statement
+  String fruit= bnana; // it will satisfy the if its avilable in the case constant if not so it will be default aand give an error
+  
+  switch(fruit){
+      
+    case 'apple'
+    case 'mango'
+    case 'bnana'
+    case 'lichi'
+      
+    print(this is a fruit $fruit);
+     break;
+    print(this is a fruit $fruit);
+     break;
+    print(this is a fruit $fruit);
+     break;
+    print(this is a fruit $fruit);
+     break;
+      
+    default
+     print(invalid fruit name);
+}
+  
+}
