@@ -1,0 +1,42 @@
+void main() {
+
+  
+ print("Marksheet");
+  double eng,urdu,pst,maths,isl,physics,obt,per;
+  
+  eng= 48;
+  urdu= 50;
+  pst= 30;
+  maths= 60;
+  isl= 50;
+  physics= 45;
+  
+  obt= eng+urdu+pst+maths+isl+physics;
+  print("obtain marks is: $obt");
+ 
+  per= obt/550*100;
+  print("percentage is: ${per.toStringAsFixed(2)}");
+  
+  if(per <=89 && per >=80)
+  {
+    print("Grade A1");
+  }
+ else if(per <=79 && per >=70)
+ {
+   print("Grade A");
+ }
+   else if(per <=69 && per >=60)
+  {
+    print("Grade B");
+  }
+ else if(per <=59 && per >=50)
+ {
+   print("Grade C"); 
+ } 
+  else if(per <=49 && per >=40)
+  {
+    print("fail");
+  }
+ 
+  
+}
